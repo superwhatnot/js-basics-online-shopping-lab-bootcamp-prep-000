@@ -38,7 +38,7 @@ function viewCart() {
                 }
                 i++
             }
-            console.log(`In your cart, you have ${cartArray)}`)
+            console.log(`In your cart, you have ${cartArray}`)
         }
     }
 }
