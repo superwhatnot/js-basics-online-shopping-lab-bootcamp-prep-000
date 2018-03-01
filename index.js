@@ -34,7 +34,7 @@ function viewCart() {
 					cartArray.push(' and ' + Object.keys(cart[i]) + ' at $' + Object.values(cart[i]) + '.')
                 }
 				else {
-					cartArray.push(' ' + Object.keys(cart[i]) + ' at $' + Object.values(cart[i]))
+					cartArray.push(` ${Object.keys(cart[i])} at $${Object.values(cart[i])}`)
                 }
                 i++
             }
